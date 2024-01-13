@@ -4,11 +4,11 @@ likes-statistics - it's the script that prints number of likes under specified Y
 # Dependencies
 pip:
 - requests
-- matplotlib (omitted, but required)
+- matplotlib (*omitted, but required*)
 
 # Usage
-To get likes count from one video:
+To get likes count from one video:  
 `python3 main.py -s [LINK]`
 
-To get likes count for the list of videos:
+To get likes count for the list of videos:  
 `python3 main.py -l [LINKS_FILE]`
