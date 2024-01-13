@@ -8,6 +8,7 @@ pip:
 
 # Usage
 To get likes count from one video:
-	python3 main.py -s [LINK]
+`python3 main.py -s [LINK]`
+
 To get likes count for the list of videos:
-	python3 main.py -l [LINKS_FILE]
+`python3 main.py -l [LINKS_FILE]`
