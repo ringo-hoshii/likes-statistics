@@ -1,5 +1,5 @@
 # Description
-**likes-statistics** - it's the script that prints number of likes under specified YouTube video given as argument or from the file in which each line is a link
+**likes-statistics** - prints the number of likes under a specified YouTube video given as a single link argument or as a file with links separated by a new line
 
 # Dependencies
 pip:
@@ -7,8 +7,8 @@ pip:
 - matplotlib *(not used, but imported)*
 
 # Usage
-To get likes count from one video:  
+To get the likes count from one video:  
 `python3 main.py -s [LINK]`
 
-To get likes count for the list of videos:  
-`python3 main.py -l [LINKS_FILE]`
+To get the likes count for the list of videos:  
+`python3 main.py -l [FILE_WITH_LINKS]`
