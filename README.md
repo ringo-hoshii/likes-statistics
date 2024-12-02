@@ -4,7 +4,7 @@
 # Dependencies
 pip:
 - requests
-- matplotlib *(omitted, but required)*
+- matplotlib *(not used, but imported)*
 
 # Usage
 To get likes count from one video:  
